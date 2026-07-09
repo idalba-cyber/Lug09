@@ -5,7 +5,8 @@ public class ContoBancario {
 	public double versamento; 
 	public double saldoVersamento;
 	public double prelievo, saldoPrelievo;
-	public double interesse, saldoInteresse;
+	public int interesse;
+	public double saldoInteresse;
 	
 	public void versamenti() {
 		saldoVersamento = saldoIniziale + versamento;
